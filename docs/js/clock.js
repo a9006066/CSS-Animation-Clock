@@ -15,7 +15,7 @@ $(() => {
     setInterval(() => {
         let hour = new Date().getHours();
         let min = new Date().getMinutes();
-        let hdegree = hour * 30 + (min / 2);
+        let hdegree = hour * 30 + (min / 2);//一分鐘 0.5度  => 分鐘/2
         let hrotate = "rotate(" + hdegree + "deg)";
 
         $("#hour").css({ "transform": hrotate })
