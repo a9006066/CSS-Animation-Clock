@@ -1,0 +1,32 @@
+#clock {
+  position: relative;
+  width: 600px;
+  height: 600px;
+  margin: 40px auto 0 auto;
+  background: url("../images/clockface.jpg") no-repeat ;
+  list-style: none;
+}
+
+#sec,
+#min,
+#hour {
+  position: absolute;
+  width: 30px;
+  height: 600px;
+  top: 0px;
+  left: 285px;
+}
+
+#sec {
+  background: url("../images/sechand.png") no-repeat;
+  z-index: 3;
+}
+#min {
+  background: url("../images/minhand.png") no-repeat;
+  z-index: 2;
+}
+#hour {
+  background: url("../images/hourhand.png") no-repeat;
+  z-index: 1;
+}
+
